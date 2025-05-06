@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header><h1>Customer Login</h1></header>
+    <main class="login-form">
+        <form>
+            <label for="customer_username">Username</label>
+            <input type="text" id="customer_username" required>
+
+            <label for="customer_password">Password</label>
+            <input type="password" id="customer_password" required>
+
+            <button class="btn">Login</button>
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Manager Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header><h1>Event Manager Login</h1></header>
+    <main class="login-form">
+        <form>
+            <label for="manager_username">Username</label>
+            <input type="text" id="manager_username" required>
+
+            <label for="manager_password">Password</label>
+            <input type="password" id="manager_password" required>
+
+            <button class="btn">Login</button>
+            <p>Don't have an event listed yet? <a href="/manager/dashboard">Go to Dashboard</a></p>
+
+        </form>
+    </main>
+</body>
+</html>

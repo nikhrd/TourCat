@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Manager Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header><h1>Upload a New Event</h1></header>
+    <main class="upload-form">
+        <form>
+            <label for="event_title">Event Title</label>
+            <input type="text" id="event_title" required>
+
+            <label for="event_desc">Description</label>
+            <textarea id="event_desc" rows="4" required></textarea>
+
+            <label for="event_date">Date</label>
+            <input type="date" id="event_date" required>
+
+            <label for="event_time">Time</label>
+            <input type="time" id="event_time" required>
+
+            <label for="event_location">Location</label>
+            <input type="text" id="event_location" required>
+
+            <label for="event_image">Image URL</label>
+            <input type="text" id="event_image" required>
+
+            <button class="btn">Upload Event</button>
+        </form>
+        <p><a href="/manager/events">View Uploaded Events</a></p>
+
+    </main>
+</body>
+</html>

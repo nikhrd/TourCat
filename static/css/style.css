@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    background-color: #e23744;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 3rem;
+    text-align: center;
+    background-color: #ffeaea;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #e23744;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.events-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+    justify-content: center;
+}
+
+.event-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    width: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.event-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.event-detail {
+    max-width: 800px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.event-detail img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.login-form {
+    max-width: 400px;
+    margin: 3rem auto;
+    background: #f9f9f9;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.login-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.login-choice {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.login-choice .btn {
+    margin: 10px;
+}
+.upload-form, .booking-form {
+    max-width: 600px;
+    margin: 3rem auto;
+    background: #fefefe;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.upload-form label,
+.booking-form label {
+    margin-top: 1rem;
+    display: block;
+    font-weight: bold;
+}
+
+.upload-form input,
+.booking-form input,
+.upload-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.thank-you {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+
+.thank-you .btn {
+    margin-top: 1rem;
+}
+.event-details {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.event-details img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.event-details h2 {
+    margin: 1rem 0 0.5rem;
+}
+
+.event-details p {
+    margin: 0.5rem 0;
+}
